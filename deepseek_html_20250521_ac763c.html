@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Aula Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos al Aula Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#clases">Clases</a></li>
+                <li><a href="#tareas">Tareas</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>¡Hola, Estudiantes!</h2>
+            <p>Este es un espacio para aprender y compartir conocimientos.</p>
+            <img src="aula-virtual.jpg" alt="Aula Virtual" width="500">
+        </section>
+
+        <section id="clases">
+            <h2>Clases Disponibles</h2>
+            <div class="clase">
+                <h3>Matemáticas</h3>
+                <p>Contenido: Álgebra, Geometría, Cálculo.</p>
+            </div>
+            <div class="clase">
+                <h3>Ciencias</h3>
+                <p>Contenido: Biología, Química, Física.</p>
+            </div>
+        </section>
+
+        <section id="tareas">
+            <h2>Tareas Pendientes</h2>
+            <ul>
+                <li>Matemáticas: Ejercicios página 45 (Fecha: 30/05)</li>
+                <li>Ciencias: Investigación sobre el sistema solar (Fecha: 01/06)</li>
+            </ul>
+        </section>
+
+        <section id="recursos">
+            <h2>Recursos Educativos</h2>
+            <a href="https://es.khanacademy.org/" target="_blank">Khan Academy</a><br>
+            <a href="https://es.ixl.com/" target="_blank">IXL (Ejercicios)</a>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Aula Virtual. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
